@@ -1,4 +1,6 @@
 # ibus-monitor
+![image](https://user-images.githubusercontent.com/10562127/173026641-572564c1-6b9e-4e24-a188-53b9e042306c.png)
+
 "Lightweight" ibus script that display languages.  
 
 This is just a small script that output the value of `ibus engine` to `STDOUT` by using `dbus`, written in shell. I made this for displaying my language in [Polybar](https://github.com/polybar/polybar), but feel free to tailor it to your need. There are some nifty part here and there and I will explain it below
@@ -41,3 +43,6 @@ No, there is no other way, unless until `ibus` made `ibus watch` availiable
 
 **Q:** How can I talk to you?  
 **A:** I am fairly active in my own Discord. [Click here to join](https://discord.gg/CB9kw68)
+
+## License
+GNU GENERAL PUBLIC LICENSE, Version 3
