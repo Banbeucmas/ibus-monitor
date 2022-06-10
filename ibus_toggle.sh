@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Example of how you can parse this in a shorter form
 while read -r lang; do
