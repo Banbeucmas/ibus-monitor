@@ -43,7 +43,7 @@ format-padding = 2
 **Q:** How painful this was?  
 **A:** I know nothing about `dbus` prior to this, give me back 16 hours of pain  
 
-**Q:** Nice polybar config?
+**Q:** Nice polybar config?  
 **A:** Yes yes, before you ask me about where to get it, here is [my dotfile](https://github.com/Banbeucmas/banbeu-dotfiles-fushigina-miko)  
 
 
