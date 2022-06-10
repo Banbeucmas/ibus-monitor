@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/10562127/173026641-572564c1-6b9e-4e24-a188-53b9e042306c.png)
 
 
-This is just a small script that output the value of `ibus engine` to `STDOUT` by using `dbus`, written in shell. I made this for displaying my language in [Polybar](https://github.com/polybar/polybar), but feel free to tailor it to your need. There are some nifty part here and there and I will explain it below
+This is just a small script that output the value of `ibus engine` to `STDOUT` by using `dbus`, written in shell. I made this for displaying my keyboard layout in [Polybar](https://github.com/polybar/polybar), but feel free to tailor it to your need. There are some nifty part here and there and I will explain it below
 
 ## Usage
 You can either clone this repository or just copy on the repository. Make sure to `chmod +x` the script files
