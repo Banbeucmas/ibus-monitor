@@ -7,6 +7,10 @@
 
 This is just a small script that output the value of `ibus engine` to `STDOUT` by using `dbus`, written in shell. I made this for displaying my keyboard layout in [Polybar](https://github.com/polybar/polybar), but feel free to tailor it to your need. There are some nifty part here and there and I will explain it below
 
+## Requirements
+* `dbus-monitor`
+* `ibus` (duh)
+
 
 ## Usage
 You can either clone this repository or just copy on the repository. Make sure to `chmod +x` the script files
