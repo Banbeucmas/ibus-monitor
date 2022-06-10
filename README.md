@@ -37,7 +37,7 @@ format-padding = 2
 No, there is no other way, unless until `ibus` made `ibus watch` availiable
 
 ## Frequently Asked Question
-**Q:** Why don't you use `ibus engine` directly?
+**Q:** Why don't you use `ibus engine` directly?  
 **A:** It isn't meant to be used in polybar, you can try it, it works, just be mindful that your CPU will go brrrrrrr for doing this
 
 **Q:** How painful this was?  
