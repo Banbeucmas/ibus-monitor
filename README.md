@@ -1,7 +1,11 @@
 # ibus-monitor
+
 "Lightweight" ibus script that display languages.  
 
-This is just a small script that output the value of `ibus engine` to `STDOUT` by using `dbus`, written in shell. I made this for displaying my language in [Polybar](https://github.com/polybar/polybar), but feel free to tailor it to your need. There are some nifty part here and there and I will explain it below
+![image](https://user-images.githubusercontent.com/10562127/173026641-572564c1-6b9e-4e24-a188-53b9e042306c.png)
+
+
+This is just a small script that output the value of `ibus engine` to `STDOUT` by using `dbus`, written in shell. I made this for displaying my keyboard layout in [Polybar](https://github.com/polybar/polybar), but feel free to tailor it to your need. There are some nifty part here and there and I will explain it below
 
 ## Usage
 You can either clone this repository or just copy on the repository. Make sure to `chmod +x` the script files
@@ -33,7 +37,7 @@ format-padding = 2
 No, there is no other way, unless until `ibus` made `ibus watch` availiable
 
 ## Frequently Asked Question
-**Q:** Why don't you use `ibus engine` directly?
+**Q:** Why don't you use `ibus engine` directly?  
 **A:** It isn't meant to be used in polybar, you can try it, it works, just be mindful that your CPU will go brrrrrrr for doing this
 
 **Q:** How painful this was?  
@@ -41,3 +45,6 @@ No, there is no other way, unless until `ibus` made `ibus watch` availiable
 
 **Q:** How can I talk to you?  
 **A:** I am fairly active in my own Discord. [Click here to join](https://discord.gg/CB9kw68)
+
+## License
+GNU GENERAL PUBLIC LICENSE, Version 3
