@@ -19,7 +19,7 @@ Currently only `mozc-jp` and `Bamboo` is parsed, you can edit it to your liking 
 ```
 
 ## Example with Polybar
-You can make a script module and use it like this. Note that `tail` has to be enabled  
+You can make a script module and use it like this. Note that `tail` has to be `true`  
 ```
 [module/language]
 type = custom/script
@@ -33,5 +33,11 @@ format-padding = 2
 No, there is no other way, unless until `ibus` made `ibus watch` availiable
 
 ## Frequently Asked Question
+**Q:** Why don't you use `ibus engine` directly?
+**A:** It isn't meant to be used in polybar, you can try it, it works, just be mindful that your CPU will go brrrrrrr for doing this
+
+**Q:** How painful this was?  
+**A:** I know nothing about `dbus` prior to this, give me back 16 hours of pain  
+
 **Q:** How can I talk to you?  
 **A:** I am fairly active in my own Discord. [Click here to join](https://discord.gg/CB9kw68)
